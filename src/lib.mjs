@@ -60,7 +60,7 @@ export const SERVICES = [
   { key: 'solo401k', id: 'solo-401k-education', title: 'Solo 401(k) Education', icon: 'person', group: 'education',
     short: 'Eligibility, both contribution roles, Roth choices and annual filing.' },
   { key: 'consultation', id: 'meetings', title: 'Office Meetings', icon: 'chat', group: 'education',
-    short: 'Sit down with us at our New York City office, by appointment.' },
+    short: 'Sit down with us at our Sheepshead Bay office in Brooklyn, by appointment.' },
 ].filter((s) => config.services[s.key]?.offered);
 
 // ------------------------------------------------------------------ icons
@@ -138,7 +138,7 @@ export function organizationSchema() {
     url: SITE + '/',
     logo: `${SITE}/assets/img/logo.png`,
     image: OG_IMAGE(),
-    description: 'Solo and self-directed 401(k) plan support in New York City — plan setup, records and valuations, Form 5500-EZ preparation, year-round support and plain-English education.',
+    description: 'Solo and self-directed 401(k) plan support in Brooklyn, New York — plan setup, records and valuations, Form 5500-EZ preparation, year-round support and plain-English education.',
     areaServed: B.serviceArea.map((n) => ({ '@type': 'City', name: n })),
     knowsAbout: ['Self-Directed 401(k)', 'Solo 401(k)', 'Form 5500-EZ', 'Retirement plan administration', 'Prohibited transaction rules'],
   };
@@ -177,7 +177,7 @@ export function ctaBand({ heading, text, button = 'Request a Meeting', href = '/
   <div class="cta__media">${mediaImg('reservoir', { cls: 'cta__img', decorative: true })}</div>
   <div class="container cta__inner">
     <div>
-      <p class="kicker kicker--light">New York City</p>
+      <p class="kicker kicker--light">Brooklyn, New York</p>
       <h2 id="cta-h">${heading}</h2>
       <p>${text}</p>
     </div>

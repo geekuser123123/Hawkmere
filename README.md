@@ -33,7 +33,7 @@ and won't send. Setup steps: `docs/N8N-FORM-SETUP.md`.
 
 ## Office
 
-**[street address — to be provided], New York, NY** (storefront office). Phone: **(332) 286-3417**.
+**2801 Emmons Ave, Brooklyn, NY 11235** (storefront office). Phone: **(332) 286-3417**.
 
 ## Structure
 

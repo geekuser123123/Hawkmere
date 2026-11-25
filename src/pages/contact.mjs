@@ -68,7 +68,7 @@ function bookByPhone() {
       <ul class="book-steps">
         <li><strong>Call us</strong> Monday – Friday, 9:00 AM – 5:00 PM.</li>
         <li><strong>Tell us briefly</strong> about your business and your plan, new or existing.</li>
-        <li><strong>Pick a time</strong> to meet at our New York City office.</li>
+        <li><strong>Pick a time</strong> to meet at our Emmons Avenue office.</li>
       </ul>
       ${B.phone ? `<a class="btn btn--accent btn--lg btn--block" href="${phoneHref()}">${icon('phone')} Call ${esc(B.phone)}</a>` : ''}
       <p class="fine">Office meetings are by appointment. Please don’t share account numbers or other sensitive details by phone message.</p>`;
@@ -97,7 +97,7 @@ export function contactBlock() {
         <h3>What happens next</h3>
         <ol class="next">
           ${FORM_URL ? '<li>We review your request.</li>\n          <li>We contact you to arrange a time.</li>' : '<li>You call and tell us a little about your plan.</li>\n          <li>We set a time that works for you.</li>'}
-          <li>We meet at our New York City office and agree what support would help.</li>
+          <li>We meet at our Brooklyn office and agree what support would help.</li>
         </ol>
         <p class="fine">Please don’t send Social Security numbers, account numbers or passwords through this website.</p>
       </div>

@@ -146,7 +146,7 @@ export const terms = legal({
 <p>You agree to indemnify and hold harmless ${N} from claims arising out of your misuse of the website or violation of these Terms.</p>
 
 <h2 id="law">Governing law</h2>
-<p>These Terms are governed by the laws of the State of New York, without regard to conflict-of-law principles. Any dispute will be resolved in the state or federal courts located in New York County, New York, unless applicable law requires otherwise.</p>
+<p>These Terms are governed by the laws of the State of New York, without regard to conflict-of-law principles. Any dispute will be resolved in the state or federal courts located in Kings County, New York, unless applicable law requires otherwise.</p>
 
 <h2 id="changes">Changes</h2>
 <p>We may update these Terms. Continued use of the website after changes are posted means you accept the revised Terms.</p>

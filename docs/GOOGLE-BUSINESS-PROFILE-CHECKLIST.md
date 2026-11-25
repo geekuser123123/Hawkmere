@@ -8,7 +8,7 @@ Use this **after** the website is live and Search Console is verified.
 > office, mailbox or unstaffed coworking address. Google may suspend the profile, and
 > it can damage trust.
 
-## Hawkmere (New York, NY) notes
+## Hawkmere (Brooklyn, NY — Sheepshead Bay) notes
 
 - **Name:** **Hawkmere**, exactly as on the website. File an **assumed name certificate** (county clerk, or the
   NY Department of State for an LLC or corporation) before creating the profile (if "Hawkmere" isn't the legal name).
@@ -16,7 +16,7 @@ Use this **after** the website is live and Search Console is verified.
   name, photos and branding distinct, and don't create a second profile at this address.
 - **Business type:** **Local store / storefront**: clients visit the office during the posted
   hours. Google requires a **complete, real street address that is staffed during those hours**.
-- **Address:** **[street address, New York, NY ZIP — to be provided]**, entered exactly as on the website.
+- **Address:** **2801 Emmons Ave, Brooklyn, NY 11235**, entered exactly as on the website.
   If the office has a suite number, add it to both.
 - **Phone:** **(332) 286-3417**.
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM.

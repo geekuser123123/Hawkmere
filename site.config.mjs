@@ -40,14 +40,14 @@ export default {
      */
     locationType: 'office',
     address: {
-      streetAddress: null, // TODO: full address to be provided
-      addressLocality: 'New York',
+      streetAddress: '2801 Emmons Ave', // real, staffed office — add suite if any
+      addressLocality: 'Brooklyn',
       addressRegion: 'NY',
-      postalCode: null,
+      postalCode: '11235',
       addressCountry: 'US',
     },
     geo: null, // real coordinates of the office only
-    serviceArea: ['New York, NY'],
+    serviceArea: ['Brooklyn, NY', 'New York, NY'],
 
     hours: [
       { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '09:00', closes: '17:00' },

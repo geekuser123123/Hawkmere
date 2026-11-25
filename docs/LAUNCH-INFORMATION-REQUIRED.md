@@ -8,7 +8,7 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 - [x] Phone: **(332) 286-3417**
 - [x] Site URL: `https://hawkmere.kevin-c4h.workers.dev`
 - [x] Hours: **Monday–Friday, 9:00 AM – 5:00 PM (Eastern Time)**, office meetings by appointment
-- [x] Business type: **storefront office** at **[street address, New York, NY ZIP — to be provided]** (Google Business Profile "Local store")
+- [x] Business type: **storefront office** at **2801 Emmons Ave, Brooklyn, NY 11235** (Google Business Profile "Local store")
 - [x] Services confirmed: plan setup, records and valuations, Form 5500-EZ preparation, ongoing
       support, Self-Directed and Solo 401(k) education, and office meetings
 - [x] Role: administrative support alongside the client's plan provider, at the sponsor's
