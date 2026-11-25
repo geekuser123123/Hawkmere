@@ -1,0 +1,8 @@
+// Brand mark — a shield badge: a red-tailed hawk soaring over the city skyline and a reservoir.
+/** Logo mark SVG. `id` must be unique per page instance. */
+export function markSvg(id = 'hm', cls = 'brand__mark') {
+  return `<svg class="${cls}" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A4149"/><stop offset="1" stop-color="#22262B"/></linearGradient><clipPath id="${id}c"><path d="M24 2.8 42 8.6V23.5c0 10.6-7.4 18.2-18 21.7C13.4 41.7 6 34.1 6 23.5V8.6Z"/></clipPath></defs><path d="M24 2.8 42 8.6V23.5c0 10.6-7.4 18.2-18 21.7C13.4 41.7 6 34.1 6 23.5V8.6Z" fill="url(#${id})"/><g clip-path="url(#${id}c)"><path d="M4 36V31h3v-3h2.5v-4H12v4h2v-2.5h3V31h2.4v-6.5h2.2V22h1.6v2.5h2v6.5H28v-3.5h3v-2h2.4v2h1.8V31h2.2v-2.6h3.2V31H44v5Z" fill="#4A535C"/><path d="M0 35.5h48V48H0Z" fill="#46707C"/><path d="M11 39.2h9M26 41.6h12" stroke="#A9C4CB" stroke-width="1.2" stroke-linecap="round"/><path d="M24 9.2c-1.1 0-1.9.9-2.1 2L10.4 10.5c-1.6 0-2.8.8-3.6 2 2.6-.2 5 .2 7.4 1.2L12 15.1c2.6-.4 5.2-.2 7.8.6l2.2 1.1-1 3.8h6l-1-3.8 2.2-1.1c2.6-.8 5.2-1 7.8-.6l-2.2-1.4c2.4-1 4.8-1.4 7.4-1.2-.8-1.2-2-2-3.6-2l-11.5.7c-.2-1.1-1-2-2.1-2Z" fill="#EBC9A0"/><path d="M21.2 20.4h5.6l1.6 4.6c-1.4.9-3 1.3-4.4 1.3s-3-.4-4.4-1.3Z" fill="#C0532F"/></g><path d="M24 2.8 42 8.6V23.5c0 10.6-7.4 18.2-18 21.7C13.4 41.7 6 34.1 6 23.5V8.6Z" fill="none" stroke="#C0532F" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+}
+
+export const markFile = () =>
+  markSvg('g', 'mark').replace('<svg class="mark"', '<svg xmlns="http://www.w3.org/2000/svg"').replace(' aria-hidden="true" focusable="false"', '');
